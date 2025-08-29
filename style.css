@@ -73,11 +73,43 @@ button {
     right: 0;
     border: none;
     margin-right: 1rem;
-    transition: .2s ease-in-out;
+    transition: .1s ease-in-out;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #d8cfab;
-    transition: .2s ease-in-out;
+    background-color: #e9dfb7;
+    transition: .1s ease-in-out;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.social-icons a > span {
+    color: var(--primary-color);
+    margin-top: 5px;
+}
+
+.social-icons a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .25rem;
+    transition: .1s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #ccc;
+    transition: .1s ease-in-out;
+}
+
+.social-icons a:hover span svg {
+    fill: #e9dfb7;
+    transition: .1s ease-in-out;
 }
