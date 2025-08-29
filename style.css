@@ -50,10 +50,6 @@ h2 {
     font-weight: 500;
     font-size: 1rem;
     text-transform: uppercase;
-    color: var(--secondary-color);
-}
-
-h2 span {
     color: var(--primary-color);
 }
 
