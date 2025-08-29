@@ -47,9 +47,7 @@ main {
     gap: .5rem;
 }
 
-.content-heading {
- 
-}
+.content-heading {}
 
 .svg svg {
     position: absolute;
@@ -104,7 +102,7 @@ button:hover {
     gap: 1.25rem;
 }
 
-.social-icons a > span {
+.social-icons a>span {
     color: var(--primary-color);
     margin-top: 5px;
 }
@@ -162,8 +160,8 @@ button:hover {
     }
 
     .svg svg {
-    position: relative;
-    z-index: -100000000;
-    height: auto;
-}
+        position: relative;
+        z-index: -100000000;
+        height: auto;
+    }
 }
